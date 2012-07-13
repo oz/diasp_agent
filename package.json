@@ -1,0 +1,28 @@
+{
+  "name": "diasp_agent",
+  "author": "Arnaud Berthomier <oz@cyprio.net>",
+  "version": "0.0.1",
+  "description": "An ugly, scraping, Diaspora agent.",
+  "keywords": ["diaspora", "client", "agent"],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/oz/diasp_agent.git"
+  },
+  "engines": {
+    "node": "0.6 || 0.8"
+  },
+  "main": "./lib/diasp_agent.js",
+  "files": [ "lib" ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "jsdom": "~0.2",
+    "underscore": "~1.3"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.3",
+    "ender": "~0.8"
+  },
+  "optionalDependencies": {}
+}
