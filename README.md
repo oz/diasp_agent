@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/oz/diasp_agent.png)](http://travis-ci.org/oz/diasp_agent)
 # Diaspora Agent
 
 DiasporaAgent is a node client for a
